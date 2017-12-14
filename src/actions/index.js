@@ -7,3 +7,8 @@ export const saveTodo = todoItem => ({
   type: "SAVE_TODO",
   todoItem
 });
+
+export const deleteTodo = todoIndex => ({
+  type: "DELETE_TODO",
+  todoIndex
+});
