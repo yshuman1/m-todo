@@ -31,6 +31,7 @@ const TodoFormField = props => {
   );
 };
 
-export default connect(mapStateToProps, { updateReduxInput, saveTodo })(
-  TodoFormField
-);
+export default connect(mapStateToProps, {
+  updateReduxInput,
+  saveTodo
+})(TodoFormField);
